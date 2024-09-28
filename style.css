@@ -164,6 +164,11 @@ img {
   width: 100%;
 }
 
+.chair-none,
+.text-none {
+  display: none;
+}
+
 /* FEATURES */
 .features-icon {
   stroke: #087f5b;
