@@ -59,7 +59,7 @@
   }
 }
 /* MOBILE */
-@media (max-width: 26.5em) {
+@media (max-width: 28em) {
   .container {
     width: 78rem;
     margin: 0 auto;
