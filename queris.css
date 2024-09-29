@@ -59,7 +59,7 @@
   }
 }
 /* MOBILE */
-@media (max-width: 28em) {
+@media (max-width: 28.5em) {
   .container {
     width: 78rem;
     margin: 0 auto;
@@ -80,12 +80,15 @@
   section {
     margin-bottom: 2rem;
   }
-  .chair-none,
-  .text-none {
+  .chair-none {
     display: block;
   }
+  .text-none,
+  .text-none2 {
+    display: none;
+  }
   h1 {
-    font-size: 5.2rem;
+    font-size: 4.2rem;
     text-align: center;
     margin-bottom: 0.4rem;
   }
@@ -110,6 +113,7 @@
   .grid-3-cols {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 2.4rem;
+    column-gap: 4rem;
   }
   .about {
     grid-template-columns: repeat(2, 1fr);
