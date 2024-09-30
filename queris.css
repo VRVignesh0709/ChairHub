@@ -153,6 +153,7 @@
   }
   footer {
     text-align: left;
+    margin-bottom: -2rem;
   }
   .about {
     align-items: center;
