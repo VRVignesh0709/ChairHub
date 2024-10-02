@@ -1,6 +1,6 @@
 @media (max-width: 65em) {
   html {
-    font-size: 58.25%;
+    font-size: 58.25%; 
   }
 }
 @media (max-width: 57em) {
@@ -153,6 +153,7 @@
   }
   footer {
     text-align: left;
+    margin-bottom: -2rem;
   }
   .about {
     align-items: center;
@@ -174,6 +175,7 @@
   }
   .copyright {
     font-size: 1.8rem;
+    display: none;
   }
 }
 @media (max-width: 28.5em) {
