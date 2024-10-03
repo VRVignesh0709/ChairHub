@@ -1,6 +1,6 @@
 @media (max-width: 65em) {
   html {
-    font-size: 58.25%; 
+    font-size: 58.25%;
   }
 }
 @media (max-width: 57em) {
@@ -90,8 +90,8 @@
   .chair-none {
     display: block;
   }
-  .text-none,
-  .text-none2 {
+  .text-none
+  /* .text-none2 */ {
     display: none;
   }
   h1 {
@@ -123,6 +123,9 @@
   }
   .features-text {
     font-size: 2rem;
+  }
+  .grid-1-cols {
+    grid-template-columns: 1fr 1fr 1fr;
   }
   .grid-3-cols {
     grid-template-columns: repeat(2, 1fr);
