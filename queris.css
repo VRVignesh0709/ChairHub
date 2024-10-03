@@ -124,13 +124,13 @@
   .features-text {
     font-size: 2rem;
   }
-  .grid-1-cols {
-    grid-template-columns: 1fr;
-  }
   .grid-3-cols {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 2.4rem;
     column-gap: 4rem;
+  }
+  .grid-1-cols {
+    grid-template-columns: 1fr;
   }
   .about {
     grid-template-columns: repeat(3, 1fr);
