@@ -35,15 +35,16 @@ body {
 
 .logo {
   width: 12rem;
-  margin-top: -3.4rem;
+  margin-top: -4.4rem;
+  margin-bottom: -5.2rem;
   margin-right: auto;
 }
 
 .nav {
   display: flex;
   /* align-items: center; */
-  background-color: #fff;
-  color: #087f5b;
+  background-color: #087f5b;
+  color: #fff;
   font-weight: 500;
   font-weight: bolder;
   font-size: 1.8rem;
@@ -66,7 +67,7 @@ body {
   cursor: pointer;
 }
 .nav-link:hover {
-  color: #099268;
+  color: #e6fcf5;
 }
 .icon-cart {
   stroke: #087f5b;
@@ -80,6 +81,7 @@ body {
 .container {
   width: 96rem;
   margin: 0 auto;
+  padding-top: 4.4rem;
 }
 
 header,
